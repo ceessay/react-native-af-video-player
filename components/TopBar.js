@@ -47,7 +47,7 @@ const TopBar = (props) => {
     onMorePress
   } = props
   return (
-    <LinearGradient colors={['rgba(0,0,0,0.75)', 'rgba(0,0,0,0)']} style={styles.container}>
+    <LinearGradient colors={['rgba(0,0,0,0)', 'rgba(0,0,0,0)']} style={styles.container}>
       <View style={styles.row}>
         { logo && <Image style={styles.logo} resizeMode="contain" {...checkSource(logo)} />}
         <Text
